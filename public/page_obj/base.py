@@ -1,3 +1,4 @@
+# _*_ coding:utf-8 _*_
 import configparser
 from config import setting
 from public.models.log import Log

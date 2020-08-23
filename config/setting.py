@@ -1,12 +1,11 @@
-
+# 全局变量
 import os,sys
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 sys.path.append(BASE_DIR)
 
-print(BASE_DIR)
 
 # 配置文件
-CONFIG_DIR = os.path.join(BASE_DIR,"database","user.ini")
+CONFIG_DIR = os.path.join(BASE_DIR,"database","sysConfig.ini")
 # 测试用例目录
 TEST_DIR = os.path.join(BASE_DIR,"testcase")
 # 测试报告目录
