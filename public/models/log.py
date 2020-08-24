@@ -9,7 +9,7 @@ from config import setting
 if not os.path.exists(setting.LOG_DIR):
     os.mkdir(setting.LOG_DIR)
 
-class log():
+class Log():
     """
     日志记录类
     """
