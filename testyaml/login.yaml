@@ -1,0 +1,28 @@
+testinfo:
+      - id: login_test
+        title: 登陆系统
+        info: 打开系统首页
+
+testcase:
+      - element_info: userName
+        find_type: id
+        operate_type: send_keys
+        info: 输入用户名
+      - element_info: j_password
+        find_type: id
+        operate_type: send_keys
+        info: 输入密码
+      - element_info: companyId
+        find_type: id
+        operate_type: select_by
+        info: 选择厂区
+      - element_info: departmentId
+        find_type: id
+        operate_type: select_by
+        info: 选择部门
+      - element_info: login_but
+        find_type: class name
+        operate_type: click
+        info: 登陆系统
+
+

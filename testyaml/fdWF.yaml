@@ -1,0 +1,8 @@
+testinfo:
+      - id: fdWF
+        tile: 文件申请流程
+        info: 文件申请流程步骤
+
+testcase:
+      - actionType: create_wf
+        actionRole:
